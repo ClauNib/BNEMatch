@@ -23,7 +23,7 @@
     let librosData = [];
 
     // Cargar el archivo CSV desde GitHub
-    fetch('https://raw.githubusercontent.com/ClauNib/BNEMatch/main/Libros3.csv')
+    fetch('https://raw.githubusercontent.com/ClauNib/BNEMatch/blob/main/Libros3.csv')
       .then(response => response.text())
       .then(csvText => {
         Papa.parse(csvText, {
